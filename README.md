@@ -1,2 +1,7 @@
-# Design-6-CPE-322
-Repository for Engineering Design 6 (CPE 322) 
+# CPE 322
+## Engineering Design VI 
+### 
+---
+**Jason Rizzo** 
+*Computer Engineering Major* 
+
