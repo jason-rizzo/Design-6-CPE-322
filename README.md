@@ -4,7 +4,9 @@
 ---
 **Jason Rizzo** 
 
-*Computer Engineering Major - Graduating 2026* 
+*`Computer Engineering Major` - Graduating 2026* 
+
+> "I am the master of my fate, / I am the captain of my soul" -William Ernest Henley 
 
 [Design 6 Repository](https://github.com/jason-rizzo/Design-6-CPE-322/)
 
