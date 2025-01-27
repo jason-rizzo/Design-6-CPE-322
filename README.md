@@ -20,3 +20,5 @@ Class Projects:
 - Weather and Air Quality Sensor Device
 - Robotics Competition (Top 10 Finalist)
 - Active Filtered Amplifier for Speakers
+
+![Custom Designed Keyboard Project](keyboard.jpg)
