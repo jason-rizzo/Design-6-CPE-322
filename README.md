@@ -6,6 +6,8 @@
 
 *Computer Engineering Major - Graduating 2026* 
 
+[Design 6 Repository](https://github.com/jason-rizzo/Design-6-CPE-322/)
+
 ---
 Personal Projects: 
 
