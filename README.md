@@ -8,7 +8,7 @@
 
 > "I am the master of my fate, / I am the captain of my soul" -William Ernest Henley 
 
-[Design 6 Repository](https://github.com/jason-rizzo/Design-6-CPE-322/)
+[Design 6 Group Site](https://sites.google.com/stevens.edu/cpe322-gsite/home)
 
 ---
 Personal Projects: 
