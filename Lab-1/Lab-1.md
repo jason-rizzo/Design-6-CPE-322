@@ -21,3 +21,15 @@ The signals all begin undefined, but when a and b are set to 0, s and c are also
 
 ### Part 2: D Flip-Flop Example 
 
+The second set of files to be tested was the D Flip-Flop Example, which included dff.vhdl and dff_tb.vhdl. These files model and test a basic D flip-flop, similar to the basic half adder in the Half Adder Example. the signals clk, din, and rst are inputs, while dout is an output. The output, dout, becomes 0 if rst is 1, and otherwise, it takes the value of din when clk reaches its rising edge. 
+
+The same GHDL commands were invoked again on the new files, and the simulation test bench produced an output wave signal file. 
+
+![GHDL Commands for the D Flip-Flop Example](Lab_1_Part_2_Terminal.png) 
+
+The test bench oscillated the value of clk every 5 ns, and modified the values of rst and din. The value of rst being 1 initially did not change dout, as it was already 0, but with rst set to 0 and din set to 1, the next time clk changed from 0 to 1 caused dout to become 1, but dout then became 0 again after rst became 1, regardless of the value of din. This output signal was visualized in GTKWave, exactly as in the Half Adder example. 
+
+![GTKWave Output for the Half Adder Example](Lab_1_Part_1_Wave.png) 
+
+Both of these examples were simulated and displayed correctly, and the behavior of each modeled component made sense based on their theoretical descriptions. 
+
