@@ -29,7 +29,7 @@ The same GHDL commands were invoked again on the new files, and the simulation t
 
 The test bench oscillated the value of clk every 5 ns, and modified the values of rst and din. The value of rst being 1 initially did not change dout, as it was already 0, but with rst set to 0 and din set to 1, the next time clk changed from 0 to 1 caused dout to become 1, but dout then became 0 again after rst became 1, regardless of the value of din. This output signal was visualized in GTKWave, exactly as in the Half Adder example. 
 
-![GTKWave Output for the Half Adder Example](Lab_1_Part_1_Wave.png) 
+![GTKWave Output for the D Flip-Flop Example](Lab_1_Part_2_Wave.png) 
 
 Both of these examples were simulated and displayed correctly, and the behavior of each modeled component made sense based on their theoretical descriptions. 
 
