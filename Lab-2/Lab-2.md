@@ -44,8 +44,23 @@ This command lists the files and other directories within the current working di
 ![ls Command](ls.png)
 
 #### Command 8: `cd`
-This command, which is 'cd' without any directory path following it, simply lists the current working directory, but in a Windows file path format unlike pwd. Notably, on Unix-based systems, this command will change the directory to the home directory without any arguments
+This command, which is 'cd' without any directory path following it, simply lists the current working directory, but in a Windows file path format unlike pwd. Notably, on Unix-based systems, this command will change the directory to the home directory without any arguments. 
 
 ![cd Command](cd.png) 
 ![cd Command On Unix-like Terminal](cd2.png)
+
+#### Command 9: `df`
+This command lists filesystems on the system with basic information, such as storage usage. 
+
+![df Command](df.png) 
+
+#### Command 10: `mkdir demo`
+This command creates a new directory within the current working directory. In this case, the directory is named 'demo'.  
+
+![mkdir Command](mkdir_demo.png) 
+
+#### Command 11: `cd demo`
+The cd command is used again to set the current working directory to the demo directory. 
+
+![cd demo Command](cd_demo.png) 
 
