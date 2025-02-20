@@ -38,3 +38,14 @@ This command sets the current working directory to the directory specified, whic
 
 ![cd iot Command](cd_iot.png)
 
+#### Command 7: `ls`
+This command lists the files and other directories within the current working directory. 
+
+![ls Command](ls.png)
+
+#### Command 8: `cd`
+This command, which is 'cd' without any directory path following it, simply lists the current working directory, but in a Windows file path format unlike pwd. Notably, on Unix-based systems, this command will change the directory to the home directory without any arguments
+
+![cd Command](cd.png) 
+![cd Command On Unix-like Terminal](cd2.png)
+
