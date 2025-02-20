@@ -78,5 +78,43 @@ This command prints the contents of the file in the arguments, which in this cas
 This command copies the first file argument to the second file argument under the file name in the second argument. After the copy operation, 2 files remained in the directory. 
 
 ![cp Command](cp_file_file1.png) 
-![Files present after copy](cp1)
+![Files present after copy](cp1.png)
+
+#### Command 15: `mv file1 file2`
+This command, usually used to move files, is used in this case to rename 'file1' to 'file2'. After the operation, 'file2' exists in the place of 'file1'. 
+
+![mv Command](cp_file_file1.png) 
+![Files present after rename](cp1.png)
+
+#### Command 16: `rm file2`
+This command removes the specified file. In this case, 'file2' is no longer present after the opeartion. 
+
+![cp Command](rm_file2.png) 
+![Files present after copy](rm.png) 
+
+#### Command 17: `clear`
+This command clears all text off of the command window, leaving only a new prompt, notably without resetting the current state of the terminal. 
+
+![clear Command](clear.png) 
+
+#### Command 18: `man uname`
+This command does not exist on Windows or within the Msys Unix-like terminal used for this lab, mainly only functioning on Linux systems. However, the command accesses the "manual" within the system and gives a description for the other command referenced, which in this case is the 'uname' command. The 'help' command within Windows serves a similar purpose. 
+
+#### Command 19: `uname -a`
+This command displays some basic system information, such as the hostname, terminal software information, system time, and some other system information. 
+
+![uname Command](uname_-a.png) 
+
+#### Command 20: `ifconfig`
+This command, similarly to the 'man' command, does not exist on Windows or in the Msys terminal. However, this command calls upon a Linux system administration utility, and lists some information about network interfaces connected with the system. 
+
+#### Command 21: `ping localhost`
+This command "pings" or sends 4 test packets to the localhost and monitors the responses. This command is used to test network connectivity to a particular destination. 
+
+![ping Command](ping_localhost.png) 
+
+#### Command 22: `netstat`
+This command lists current network connections along with related diagnostic information such as status, address, protocol, and local port. 
+
+![netstat Command](netstat.png) 
 
