@@ -57,10 +57,26 @@ This command lists filesystems on the system with basic information, such as sto
 #### Command 10: `mkdir demo`
 This command creates a new directory within the current working directory. In this case, the directory is named 'demo'.  
 
-![mkdir Command](mkdir_demo.png) 
+![mkdir Command](mkdir.png) 
 
 #### Command 11: `cd demo`
 The cd command is used again to set the current working directory to the demo directory. 
 
 ![cd demo Command](cd_demo.png) 
+
+#### Command 12: `nano file`
+This command opens a file in nano, which is a command-line text editor. The text 'file' was written manually into the new file with the text editor, and the file was then saved to the current working directory. 
+
+![nano file Command](nano_file.png) 
+
+#### Command 13: `cat file`
+This command prints the contents of the file in the arguments, which in this case contained the word 'file'. 
+
+![cat file Command](cat_file.png) 
+
+#### Command 14: `cp file file1`
+This command copies the first file argument to the second file argument under the file name in the second argument. After the copy operation, 2 files remained in the directory. 
+
+![cp Command](cp_file_file1.png) 
+![Files present after copy](cp1)
 
