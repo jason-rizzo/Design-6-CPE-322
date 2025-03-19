@@ -27,12 +27,17 @@ The project was then migrated using the `makemigrations` and `migrate` commands,
 
 ![Migrations](migrations.png) 
 
+A superuser account had to be created to allow the server to be managed remotely after startup. This was completed using the `createsuperuser` command, which prompted the input and confirmation of a username, email address, and password for this user, which were accepted and utilized for the superuser. 
+
 The server was then run using the `runserver` Django command, which used the terminal session to begin running the webserver from the completed project directory. This began successfully. 
 
 ![Server Startup](runserver.png) 
 
-After starting the server, the 
+After starting the server, the superuser account had to be accessed from the admin panel of the server to add the location and temperature data for the app. 
 
-![Adding 
+![Adding Data](temperaturedata.png) 
 
-The server ran successfully, and when the app was viewed at the local host address, the app displayed the current input 
+The server ran successfully, and when the app was viewed at the local host address, the app displayed the current input temperature, date, time, and location, as well as using the Google Maps API to display this as an interactive embedded Google Map. 
+
+![Final Displayed App](viewapp.png) 
+
