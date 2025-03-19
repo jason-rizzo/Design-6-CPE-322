@@ -41,3 +41,37 @@ The server ran successfully, and when the app was viewed at the local host addre
 
 ![Final Displayed App](viewapp.png) 
 
+--- 
+
+### Part 2: `mycpu` Project 
+
+The second portion of the lab was similar to the first, creating a Django project, with the primary difference being that this project utilized the REST framework and generated an updating webpage app on its server. 
+
+The `startproject` and `startapp` commands were utilized the same way as the first part of the lab. 
+
+![Project and App Creation](reststart.png) 
+
+Following the project creation, the same process of copying files was completed again, with some extra modifications to account for the REST framework. The string "rest_framework" was included as an item in the installed apps list in settings.py, and extra files such as serializers.py and controller.py were copied to the project directory. The default admin password also needed to be changed in views.py and controller.py. The same Google Maps API key was also added to index.html within this project. An attempt was also made to install psutil, but this was already present under the list of packages. 
+
+The project was migrated exactly as it was in the last project. 
+
+![Migrations](restmigrate.png) 
+
+A superuser was also created using the same process, but the credentials had to match those set in the views.py and controller.py for the app to function. 
+
+The server was then started using the `runserver` command, which succeeded. 
+
+![Server Startup](restrunserver.png) 
+
+The admin page also had to be accessed to input basic data into the database, including coordinates as before, but also, on 3 different subpages of the site, there were fields to input starting data for the functionality of the app, which were initialized to 2024, 20, and 20 respectively. 
+
+![Admin Page](restlocationdata.png) 
+
+The controller.py service had to be started in a new terminal window following this. The purpose of this script was to retrieve, print, and update the website with data gathered about the current date, system cpu usage, and system memory usage. 
+
+![controller.py Functionality](restcontroller.png) 
+
+After all of this was running, the app was loaded in a browser window, and it functioned as expected, displaying the same Google Maps embedded window as before, but also displaying a live-updating record of system cpu and memory usage. 
+
+![Final App View](restviewapp.png) 
+
