@@ -75,3 +75,15 @@ After all of this was running, the app was loaded in a browser window, and it fu
 
 ![Final App View](restviewapp.png) 
 
+---
+
+### Part 3: Flask 
+
+The final test in this lab was to run a project with Flask, which was installed alongside Django. This project was ran by invoking `hello_world.py` within the "iot" master directory. 
+
+![Flask Project Execution](flask.png) 
+
+This generated another webserver, and upon viewing it in a browser, it simply displayed "hello world" on an empty webpage. 
+
+![Flask Project View](flaskview.png) 
+
