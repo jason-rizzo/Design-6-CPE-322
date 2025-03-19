@@ -33,3 +33,9 @@ The third file, `http.js`, generated a simple webpage that displayed the number 
 
 ![Reload Counting Page](httpresult.png) 
 
+### Part 2: Pystache 
+
+The second portion of this lab required the use of Pystache, which was installed at the beginning, to run a test script, `say_hello.py`. This script used Pystache, which is a Python library implementation of Mustache, to print from a list and format several strings beginning with "Hey." Mustache is a universal template formatting language, which has uses in replacing views and javascript additions to HTML files with its own system for formatting templates, which has applications to website design, such as in this lab and Lab 4. 
+
+![Pystache test file running](pystache.png) 
+
