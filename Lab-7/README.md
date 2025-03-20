@@ -21,4 +21,13 @@ The required Python files, `thingspeak_cpu_loop.py` and `thingspeak_feed.py` wer
 
 ### Part 2: Google Sheets 
 
-The second part of this lab 
+The second part of this lab began by creating a new Google Cloud project called `cpudata`, on which the APIs for Google Drive and Google Sheets were enabled. A service account was created instead of an API key for this project, which allowed operations as a user to be automated on a Google Sheet. Ther service account's key was downloaded as a `.json` file, and this file and the `cpu_spreadsheet.py` file were copied to a demo directory. 
+
+A new Google Sheet called `cpudata` was created on the primary Google account, and all rows except the first row were deleted, with the first row having header data input into it. The spreadsheet was then shared with an email address associated with the service account from the key `.json` file. Allowing this account edit access to the file would allow the service account to edit the file through calls to the API. 
+
+The file `cpu_spreadsheet.py` was then run from the demo directory, and it began gathering, printing, and uploading system CPU usage and memory data. This data was placed into the `cpudata` spreadsheet in new rows by the program through the service account connected to the Google Cloud API. 
+
+![Terminal For cpu_spreadsheet.py](cpuspreadsheet.png) 
+
+![Google Sheet Results](cpudata.png) 
+
