@@ -11,9 +11,11 @@ The next file tested was `snakecoin.py`, a very simple implementation of a block
 
 ![SnakeCoin Results](snakecoin.png) 
 
-The next iteration of the SnakeCoin project ran through the file `snakecoin-server-full-code.py`, which runs a Flask server when executed. This server allowed blocks to be mined by accessing its "mine" page. 
+The next iteration of the SnakeCoin project ran through the file `snakecoin-server-full-code.py`, which runs a Flask server when executed. This server allowed blocks to be mined by accessing its "mine" page. The server simply produced a webpage that identified itself as a SnakeCoin server when viewed. 
 
 ![Starting SnakeCoin Server](snakecoin-server.png) 
+
+![SnakeCoin Server Page](serverresult.png) 
 
 Another terminal was opened, and a block was mined on it. It is notable that the "curl" command was rejected by the server from the Windows terminal, so an Msys2 terminal was used instead, which did work properly, and the blockchain was initialized with a block mined. 
 
@@ -36,4 +38,10 @@ The app was then executed from the cloned folder, with two files being used. `no
 ![Running the Node Server](nodeserver.png) 
 
 ![Running the App](runapp.png) 
+
+To use this app, a message with a name could be posted into a text box on the app webpage. The message would not be viewable until stored in the blockchain, however, so the "Request to Mine" button needed to be pressed first. Afterwards, the block was mined, and the posted messages were added to the blockchain and stored on the webpage. 
+
+![Mining the Block](requesttomine.png) 
+
+![Viewing the Posts in the Blockchain](appresult.png) 
 
