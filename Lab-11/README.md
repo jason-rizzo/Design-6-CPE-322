@@ -19,7 +19,9 @@ The first file tested was `qiskit_terra_example.py`, which modeled a simple quan
 
 The program generated an array showing that the two qubits were both 0 509 times, and that they were both 1 515 times, indicating that the circuit was tested for 1024 trials and that the qubits were always set to the same values, but had an approximately equal probability of being 0 or 1, as the quantum circuit would indicate through the logic gates applied to it in a sequence. 
 
-There was also an attempt made to 
+There was also an attempt made to run the file `qiskit_aer_example.py`, but this file had a significantly larger issue with deprecated functions. Despite being newer than the its own marked deprecated version, it did not use transpile to reduce the circuit before running the simulation, and although it did produce correct theoretical results by simulting the circuit normally (as shown), the Aer simulator, intended to add circuit noise to the simulation, did not function due to what was determined to be a deprecation issue regarding the proper way to invoke the Aer simulator. 
 
-It is also notable that the Qiskit Ignis and Aqua frameworks were deprecated, and thus, the example files for those frameworks would not run and could not be modified to run properly without significant rewriting. 
+![Aer Execution With Partial Success](aer-result.png) 
+
+It is also notable that the Qiskit Ignis and Aqua frameworks were deprecated, and thus, the example files for those frameworks would not run and could not be modified to run properly without significant rewriting. However, quantum computing, being a relatively new field, requires constant updates to its simulators, which results in older functions and conventions being deprecated in Qiskit more quickly than expected. 
 
