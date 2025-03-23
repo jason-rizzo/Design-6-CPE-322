@@ -41,6 +41,10 @@ The server ran successfully, and when the app was viewed at the local host addre
 
 ![Final Displayed App](viewapp.png) 
 
+The index.html template for the Weather Station website was edited to reformat the date properly with the month before the day. 
+
+![Final Displayed App Fixed](viewapp-fixed.png) 
+
 --- 
 
 ### Part 2: `mycpu` Project 
